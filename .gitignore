@@ -1,20 +1,34 @@
-# IDE
+# Maven build directory
+/target/
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# IDEA specific files
 .idea/
 *.iml
-*.ipr
 *.iws
 
-# Maven
-target/
-mvnw
-mvnw.cmd
+# VS Code specific files
+.vscode/
 
-# Logs
-log/
-*.log
-
-# OS-specific files
+# OS generated files
 .DS_Store
 Thumbs.db
 
+# Log files
+*.log
 
+# Temporary files
+*.tmp
+
+# IntelliJ specific files
+out/
+*.ipr
+*.iws
+*.idea/
+
+# Java build directory
+/bin/
